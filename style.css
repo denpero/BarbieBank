@@ -1,0 +1,253 @@
+html {
+  background: url("C:\\Users\\IssaSegovia\\Desktop\\Octavo semestre\\Recursos\\manMoney.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+#login-button {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #fef9ff;
+  opacity: 0.4;
+  box-shadow: 10px 10px 30px #000;
+  border: 3px solid #EE4A99;
+}
+
+
+/* Login container */
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 560px;
+  height: 460px;
+  border-radius: 5px;
+  background: #FEF9FF;
+  display: none;
+  border: 3px solid #EE4A99;
+
+}
+
+.close-btn {
+  position: absolute;
+  cursor: pointer;
+  line-height: 18px;
+  top: 3px;
+  right: 3px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  opacity: .2;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.close-btn:hover {
+  opacity: .5;
+}
+
+/* Heading */
+h1 {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: #EE4A99;
+}
+
+/* Inputs */
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  position: relative;
+  width: 50%;
+  display: block;
+  margin: 20px auto;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  border-radius: 6px;
+  background: rgba(255, 251, 251, 0.3);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  width: 50%;
+  display: block;
+  margin: 60px auto;
+  font-size: 17px;
+  border-radius: 6px;
+  background: rgba(255, 251, 251, 0.3);
+  border: 3px solid #EE4A99;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 3px 3px 10px #333;
+  background: rgba(3, 3, 3, .18);
+}
+
+/* Placeholders */
+::-webkit-input-placeholder {
+  color: #ddd;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: red;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: red;
+}
+
+:-ms-input-placeholder {
+  color: #333;
+}
+
+/* Link */
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  padding: 4px 8px;
+  background: #524356;
+}
+
+a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: rgb(151, 163, 41);
+}
+
+#remember-container {
+  position: relative;
+  margin: -5px 20px;
+}
+
+#remember {
+  position: absolute;
+  font-size: 13px;
+  font-family: 'Hind', sans-serif;
+  color: rgba(255, 255, 255, .5);
+  top: 7px;
+  left: 20px;
+}
+
+#forgotten {
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Hind', sans-serif;
+  color: rgba(255, 255, 255, .2);
+  right: 0px;
+  top: 20px;
+  cursor: pointer;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#forgotten:hover {
+  color: rgb(133, 156, 18);
+}
+
+#forgotten-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 260px;
+  height: 250px;
+  border-radius: 10px;
+  background: rgba(3, 3, 3, 0.2);
+  box-shadow: 1px 1px 50px #000;
+  display: none;
+}
+
+.orange-btn {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*.fondo{
+    background-image: url("C:\\Users\\IssaSegovia\\Desktop\\Octavo semestre\\Recursos\\manMoney.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    position: fixed;  ajuste de pantalla */
+/*filter: grayscale(100%);  filtro blanco y negro 
+     
+}*/
+
+.swal-modal {
+  background: rgba(155, 6, 6, 0.61);
+}
+
+.swal-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.swal-text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.836);
+  font-size: 12px;
+  border: 1px solid #000000;
+  text-shadow: 0px -1px 0px rgba(245, 244, 244, 0.3);
+}
+
+.swal-button:hover {
+  border: 1px solid #000000;
+  background-color: #474747ea;
+  color: #8d850d;
+}
+
+.swal-overlay {
+  background-color: rgba(255, 0, 0, 0.219);
+}
